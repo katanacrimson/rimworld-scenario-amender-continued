@@ -1,0 +1,9 @@
+Source/.vs/*
+Source/bin/*
+Source/obj/*
+Source/**/.vs/*
+Source/**/bin/*
+Source/**/obj/*
+*.pdb
+0Harmony.*
+*.sln

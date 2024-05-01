@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Scenario Amender [1.5]</name>
+  <author>katana</author>
+  <packageId>katana.scenarioamender</packageId>
+  <description>
+
+[h1]Scenario Amender 1.5[/h1]
+
+[strike]PASSED DOWN THE ARMSTRONG LINE FOR GENERATIONS[/strike]
+
+Prior incarnations:
+
+[list]
+[*]krafs: https://steamcommunity.com/sharedfiles/filedetails/?id=2012264335 (workshop page removed?)
+[*]mlie: https://steamcommunity.com/sharedfiles/filedetails/?id=2201715440 (1.1 - 1.3)
+[*]AngryHornet: https://steamcommunity.com/sharedfiles/filedetails/?id=2896988266 (1.4)
+[/list]
+
+[hr][/hr]
+
+[h2]Please remember to unsubscribe to previous versions to avoid mod conflicts if you are playing RimWorld 1.5.[/h2]
+
+[hr][/hr]
+
+[h2]Original mod description[/h2]
+
+[h3]Edit scenarios midgame[/h3]
+
+[b]NB![/b]
+This mod has been reported to have an issue where the Save-button not working. This is either a mod conflict or a recent game update having changed some code. I have not looked into this yet, and can not make any promises that I will in the foreseeable future.
+
+[b]About scenarios[/b]
+A scenario is the basis of a new game. You choose starting pawns, some items, maybe disable infestation-incidents, and so on.
+At the start of a game, the scenario sets everything according to your choices. Likewise, when you click [i]Save[/i] in the scenario editor in Scenario Amender, it will grab your newly edited scenario settings and apply them to your game. This is complex, and can have unforeseen consequences with mods that do things I have no knowledge about.
+
+[b]DISCLAIMER[/b]
+Backup your save before using this! Especially if you&apos;re using mods that extend or alter scenario options. I am not responsible for broken games.
+
+[b]Usage[/b]
+Load your save, open the [i]Main menu[/i] tab and click [i]Review Scenario[/i].
+Click [i]Edit[/i], make your changes, and click [i]Save[/i]. Done.
+
+[b]Notes:[/b]
+  - Changes to starting pawns do not affect existing pawns, only new ones.
+  - Changes to starting items, such as silver and equipment, do not work.
+  - Changes to player faction do not work.
+  - Adding starting research will not remove finished research - only add to it.
+
+  - Safe to add and remove from existing saves.
+  - Edited scenarios retain their changes even without [i]Scenario Amender[/i] active.
+  </description>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>
